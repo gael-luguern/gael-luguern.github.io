@@ -1,0 +1,148 @@
+  <!DOCTYPE html>
+  <html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAKOCHE</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAKOCHÉ - Sakoches de Vélo Artisanales</title>
+</head>
+<body>
+    <header>
+        <img src="./img/logoBig.png" alt="Logo SAKOCHÉ" class="logo">
+    </header>
+
+    <div class="container">
+        <section>
+            <!--<h1>Bienvenue chez SAKOCHÉ</h1>-->
+            <h1>Des sacoches de vélos artisanales</h1>
+        </section>
+
+        <div class="product-container">
+          <img src="./img/Fleche1.png" class="curved-arrow arrow-1">
+            <img src="./img/montee.jpeg" alt="montee" class="product-image" style="position: relative; left: 10%;">
+            <img src="./img/Fleche3.png" class="curved-arrow arrow-2">
+            <p class="product-description" style="position: relative; left: -15%; top: -100px">Cousues à Annecy</p>
+
+            <img src="./img/Toile de parapente.jpeg" alt="Sakoche en toile de parapente" class="product-image" style="position: relative; left: -20%;">
+            <p class="product-description" style="position: relative; left: 15%; top:-300px">A partir de toile de bateau et de parapente</p>
+            
+            <img src="./img/Fleche2.png" class="curved-arrow arrow-3">
+            <p class="product-description">100% Customisable et faite à la main avec amour</p>
+
+            <img src="./img/Toile de parapente.jpeg" alt="Sakoche personnalisable" class="product-image">
+
+            <p>Découvrez mes sakoches de vélo artisanales, faites à partir de voiles de bateau recyclées et de toile de parapente usagée. Chaque pièce est 100% personnalisable et faite à la main avec amour.</p>
+
+        </div>
+
+        <div class="banusette-section">
+            <img src="./img/Banusette (1).jpg" alt="La BANUSETTE" class="banusette-image">
+            <div class="banusette-text">
+                <h2>La BANUSETTE !</h2>
+                <p>La BANUSETTE s'adapte à toutes les situations de ta journée et évolue avec ton voyage. Rapidement, elle deviendra indispensable.</p>
+                <a href="#" class="cta-button">En savoir plus</a>
+            </div>
+        </div>
+
+        <section class="contact-section">
+            <h2>Contactez-moi</h2>
+            <form>
+                <label for="name">Nom:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="phone">Téléphone:</label>
+                <input type="tel" id="phone" name="phone"><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+                <input type="submit" value="Envoyer">
+            </form>
+        </section>
+
+        <section>
+            <h2>Découvrez les tarifs indicatifs</h2>
+            <p>Consultez nos tarifs pour les sakoches personnalisées.</p>
+            <!-- Ajoute ici un tableau ou une liste de tarifs -->
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 SAKOCHÉ. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <body>
+
+    <!-- HEADER -->
+    <header>
+      <img class="logo" src="./img/logoBig.png" alt="Logo SAKOCHE" />
+    </header>
+
+  <section class="first">
+
+  </section>
+
+  <!-- SLIDER -->
+  <section class="slider">
+    <div class="slides" id="slides">
+      <div class="slide" style="background-image:url('./img/Banusette\ \(1\).jpg')"></div>
+      <div class="slide" style="background-image:url('./img/Banusette\ \(4\).jpg')"></div>
+      <div class="slide" style="background-image:url('./img/Banusette\ \(3\).jpg')"></div>
+      <div class="slide" style="background-image:url('./img/Banusette\ \(2\).jpg')"></div>
+    </div>
+
+  </section>
+
+  <!-- MENU DYNAMIQUE -->
+  <section class="menu-section">
+
+
+    <div class="menu-content">
+      <img id="menuImage" src="https://picsum.photos/500/350?4" alt="SAKOCHE" />
+      <div class="menu-text">
+        <h2 id="menuTitle">Présentation</h2>
+        <p id="menuDescription">SAKOCHE est une marque moderne mettant en avant un design épuré et une identité forte.</p>
+      </div>
+
+          <div class="menu-buttons">
+      <button class="active" onclick="changeMenu(0)">Présentation</button>
+      <button onclick="changeMenu(1)">Produits</button>
+      <button onclick="changeMenu(2)">Valeurs</button>
+    </div>
+    </div>
+  </section>
+
+  <script src="./script.js"></script>
+
+</body>
+</html>
