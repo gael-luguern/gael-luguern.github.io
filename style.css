@@ -23,6 +23,141 @@
 }
 
 
+body {
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+    background-color: #FFFF;
+}
+
+
+h1{
+  text-align: center;
+    font-size: 8vw;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 40px 0;
+}
+
+.product-image {
+    width: 25%;
+    max-width: 250px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.curved-arrow {
+    position: absolute;
+    width: 150px;
+
+    background: transparent;
+}
+
+.arrow-1 {
+    top: -50px;
+    left: 30%;
+    width: 20vw;
+    max-width: 200px;
+
+    border-top: none;
+    border-right: none;
+    transform: rotate(0deg);
+}
+
+.arrow-2 {
+    top: min(315px, 32vw);
+    left: 45%;
+
+    width: 20vw;
+    max-width: 200px;
+    border-bottom: none;
+    border-left: none;
+    transform: rotate(-110deg);
+}
+
+.arrow-3 {
+    top: min(625px, 73vw);
+    left: 55%;
+
+    width: 23vw;
+    max-width: 225px;
+    border-bottom: none;
+    border-left: none;
+    transform: rotate(20deg);
+}
+
+.product-description {
+    max-width: min(400px, 40vw);
+    margin: 0 auto;
+    text-align: center;
+
+        text-align: center;
+    font-size: min(6vw, 3rem);
+}
+
+.largeP{
+  max-width: 100%;
+}
+
+.banusette-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 0;
+}
+
+.banusette-image {
+    max-width: 300px;
+    margin: 0 20px;
+}
+
+.banusette-text {
+    max-width: 400px;
+    text-align: left;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.contact-section {
+    background-color: #f0f0f0;
+    padding: 40px 20px;
+    margin-top: 40px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
     /* SLIDER */
     .slider {
       position: relative;
@@ -117,125 +252,3 @@
     }
 
     /*alzzzzzzzzzzzzzzzzzzzzzzzzz*/
-
-body {
-    margin: 0;
-    padding: 0;
-    color: #333;
-    line-height: 1.6;
-    background-color: #FFFF;
-}
-
-
-h1{
-  text-align: center;
-    font-size: 5em;
-}
-
-p{
-    text-align: center;
-    font-size: 3em;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-}
-
-.product-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    margin: 40px 0;
-}
-
-.product-image {
-    max-width: 250px;
-    margin: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.curved-arrow {
-    position: absolute;
-    width: 150px;
-
-    background: transparent;
-}
-
-.arrow-1 {
-    top: -50px;
-    left: 30%;
-    width: 200px;
-
-    border-top: none;
-    border-right: none;
-    transform: rotate(0deg);
-}
-
-.arrow-2 {
-  width: 200px;
-    top: 315px;
-    left: 45%;
-    border-bottom: none;
-    border-left: none;
-    transform: rotate(-110deg);
-}
-
-.arrow-3 {
-  width: 225px;
-    top: 625px;
-    left: 55%;
-    border-bottom: none;
-    border-left: none;
-    transform: rotate(20deg);
-}
-
-.product-description {
-    max-width: 400px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.banusette-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 60px 0;
-}
-
-.banusette-image {
-    max-width: 300px;
-    margin: 0 20px;
-}
-
-.banusette-text {
-    max-width: 400px;
-    text-align: left;
-}
-
-.cta-button {
-    display: inline-block;
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin: 20px 0;
-}
-
-.contact-section {
-    background-color: #f0f0f0;
-    padding: 40px 20px;
-    margin-top: 40px;
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
