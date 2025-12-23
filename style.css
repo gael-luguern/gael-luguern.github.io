@@ -175,7 +175,8 @@ footer {
 }
 
 .image-box {
-  width: 300px;
+  width: 50vw;
+  max-width: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
