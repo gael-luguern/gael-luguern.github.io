@@ -26,12 +26,15 @@
   <div class="container">
     <section>
       <!--<h1>Bienvenue chez SAKOCHÉ</h1>-->
-      <h1 class="product-description largeP largeT">Des sacoches de vélos artisanales</h1>
+      <h1 class="product-description largeP largeT">Des <az style="color:#8AB9A7">sacoches</az> de vélos <az
+          style="color:#AF6E5A">artisanales</az>
+      </h1>
     </section>
 
     <div class="product-container">
       <img src="./img/Fleche1.png" class="curved-arrow arrow-1">
-      <h1 class="product-description" style="position: relative; left: -15%; top: min(25vw, 270px)">Cousues à Annecy
+      <h1 class="product-description marron" style="position: relative; left: -15%; top: min(25vw, 270px)">Fabriquées à
+        Annecy
       </h1>
       </img>
 
@@ -40,7 +43,8 @@
 
 
       <img src="./img/Fleche3.png" class="curved-arrow arrow-2">
-      <h1 class="product-description" style="position: relative; left: 15%; top:min(7vw, 100px)">A partir de toile de
+      <h1 class="product-description vert" style="position: relative; left: 15%; top:min(7vw, 100px)">A partir de toile
+        de
         bateau et de
         parapente</h1>
       </img>
@@ -50,11 +54,16 @@
 
 
       <img src="./img/Fleche2.png" class="curved-arrow arrow-3">
-      <h1 class="product-description largeP">♥ Chaque pièce est&nbsp 100% personalisable et fabriquée à la main avec
-        amour ♥</h1>
+      <h1 class="product-description largeP">
+        <az style="color:#8AB9A7">♥</az> Chaque pièce est&nbsp <az style="color:#AF6E5A">100% personalisable</az> et
+        cousues à la <az style="color:#AF6E5A">main</az> avec
+        amour <az style="color:#8AB9A7">♥</az>
+      </h1>
 
       </img>
-      <a href="#" class="cta-button">Contactez-moi !</a>
+      <br>
+      <a href="./sacoches.html" class="cta-button">Quelques exemple de sacoches</a>
+
 
     </div>
 
@@ -72,10 +81,28 @@
       </div>
     </div>
 
-    <a href="./sacoches.html" class="cta-button">Quelques exemple de sacoches</a>
+    <br>
+    <a href="./prix.html" class="cta-button">Liste indicative des prix</a>
 
 
+    <section class="contact-section">
+      <h1>Contactez-moi !</h1><br>
+      <form>
+        <input class="contact-box" type="text" id="name" name="name" placeholder="Nom*" required><br>
 
+        <input class="contact-box" type="email" id="email" name="email" placeholder="Email*" required><br>
+
+        <input class="contact-box" type="tel" id="phone" name="phone" placeholder="Telephone"><br>
+
+        <textarea class="contact-box" id="message" name="message" rows="4" placeholder="Message"
+          required></textarea><br>
+
+        <input class="contact-box cta-button" type="submit" value="Envoyer">
+      </form>
+    </section>
+
+
+<!-- 
     <div id="wrapper">
       <div id="slider-wrap">
         <ul id="slider">
@@ -84,41 +111,22 @@
           </li>
 
           <li data-color="#3498db">
-            <div>
-              <h3>Slide #2</h3>
-              <span>Sub-title #2</span>
-            </div>
-            <i class="fa fa-gears"></i>
+            <img src="img/Banusette (2).jpg">
           </li>
 
           <li data-color="#9b59b6">
-            <div>
-              <h3>Slide #3</h3>
-              <span>Sub-title #3</span>
-            </div>
-            <i class="fa fa-sliders"></i>
+            <img src="img/Banusette (3).jpg">
           </li>
 
           <li data-color="#34495e">
-            <div>
-              <h3>Slide #4</h3>
-              <span>Sub-title #4</span>
-            </div>
-            <i class="fa fa-code"></i>
+            <img src="img/Banusette (4).jpg">
           </li>
 
           <li data-color="#e74c3c">
-            <div>
-              <h3>Slide #5</h3>
-              <span>Sub-title #5</span>
-            </div>
-            <i class="fa fa-microphone-slash"></i>
+            <img src="img/Banusette (5).jpg">
           </li>
-
-
         </ul>
 
-        <!--controls-->
         <div class="btns" id="next"><i class="fa fa-arrow-right"></i></div>
         <div class="btns" id="previous"><i class="fa fa-arrow-left"></i></div>
         <div id="counter"></div>
@@ -127,136 +135,17 @@
           <ul>
           </ul>
         </div>
-        <!--controls-->
 
-      </div>
+      </div>-->
 
     </div>
-
-    <div id="image-slider" class="splide">
-      <div class="splide__track">
-        <ul class="splide__list">
-          <li class="splide__slide">
-            <img src="./img/Banusette (1).jpg">
-          </li>
-          <li class="splide__slide">
-            <img src="./img/Banusette (2).jpg">
-          </li>
-          <li class="splide__slide">
-            <img src="./img/Banusette (3).jpg">
-          </li>
-          <li class="splide__slide">
-            <img src="./img/Banusette (4).jpg">
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="banusette-section">
-      <img src="./img/Banusette (1).jpg" alt="La BANUSETTE" class="banusette-image">
-      <div class="banusette-text">
-        <h2>La BANUSETTE !</h2>
-        <p>La BANUSETTE s'adapte à toutes les situations de ta journée et évolue avec ton voyage. Rapidement, elle
-          deviendra indispensable.</p>
-        <a href="#" class="cta-button">En savoir plus</a>
-      </div>
-    </div>
-
-    <section class="contact-section">
-      <h2>Contactez-moi</h2>
-      <form>
-        <label for="name">Nom:</label>
-        <input type="text" id="name" name="name" required><br><br>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
-
-        <label for="phone">Téléphone:</label>
-        <input type="tel" id="phone" name="phone"><br><br>
-
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="4" required></textarea><br><br>
-
-        <input type="submit" value="Envoyer">
-      </form>
-    </section>
-
-    <section>
-      <h2>Découvrez les tarifs indicatifs</h2>
-      <p>Consultez nos tarifs pour les sakoches personnalisées.</p>
-      <!-- Ajoute ici un tableau ou une liste de tarifs -->
-    </section>
+    
   </div>
-  &nbsp<img src="./img/coeur.png" style="max-width: 50px; width: 7vw;">
-
   <footer>
     <p>&copy; 2025 SAKOCHÉ. Tous droits réservés.</p>
   </footer>
 
   <script src="./script.js"></script>
-
-
-</body>
-
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<body>
-
-  <!-- HEADER -->
-  <header>
-    <img class="logo" src="./img/logoBig.png" alt="Logo SAKOCHE" />
-  </header>
-
-  <section class="first">
-
-  </section>
-
-  <!-- SLIDER -->
-  <section class="slider">
-    <div class="slides" id="slides">
-      <div class="slide" style="background-image:url('./img/Banusette\ \(1\).jpg')"></div>
-      <div class="slide" style="background-image:url('./img/Banusette\ \(4\).jpg')"></div>
-      <div class="slide" style="background-image:url('./img/Banusette\ \(3\).jpg')"></div>
-      <div class="slide" style="background-image:url('./img/Banusette\ \(2\).jpg')"></div>
-    </div>
-
-  </section>
-
-  <!-- MENU DYNAMIQUE -->
-  <section class="menu-section">
-
-
-    <div class="menu-content">
-      <img id="menuImage" src="https://picsum.photos/500/350?4" alt="SAKOCHE" />
-      <div class="menu-text">
-        <h2 id="menuTitle">Présentation</h2>
-        <p id="menuDescription">SAKOCHE est une marque moderne mettant en avant un design épuré et une identité forte.
-        </p>
-      </div>
-
-      <div class="menu-buttons">
-        <button class="active" onclick="changeMenu(0)">Présentation</button>
-        <button onclick="changeMenu(1)">Produits</button>
-        <button onclick="changeMenu(2)">Valeurs</button>
-      </div>
-    </div>
-  </section>
 
 
 </body>
