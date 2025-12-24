@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SAKOCHE</title>
   <link rel="stylesheet" href="./style.css">
-
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
 <!DOCTYPE html>
@@ -50,8 +50,9 @@
 
 
       <img src="./img/Fleche2.png" class="curved-arrow arrow-3">
-      <h1 class="product-description largeP">Chaque pièce est&nbsp 100% personalisable et fabriquée à la main avec amour&nbsp<img src="./img/coeur.png" style="max-width: 50px; width: 7vw;"></h1>
-      
+      <h1 class="product-description largeP">♥ Chaque pièce est&nbsp 100% personalisable et fabriquée à la main avec
+        amour ♥</h1>
+
       </img>
       <a href="#" class="cta-button">Contactez-moi !</a>
 
@@ -68,6 +69,86 @@
       <br>
       <div class="image-box box-3">
         <img src="./img/montagne_cadre.png" alt="Image 3">
+      </div>
+    </div>
+
+    <a href="./sacoches.html" class="cta-button">Quelques exemple de sacoches</a>
+
+
+
+    <div id="wrapper">
+      <div id="slider-wrap">
+        <ul id="slider">
+          <li data-color="#1abc9c">
+            <img src="img/Banusette (1).jpg">
+          </li>
+
+          <li data-color="#3498db">
+            <div>
+              <h3>Slide #2</h3>
+              <span>Sub-title #2</span>
+            </div>
+            <i class="fa fa-gears"></i>
+          </li>
+
+          <li data-color="#9b59b6">
+            <div>
+              <h3>Slide #3</h3>
+              <span>Sub-title #3</span>
+            </div>
+            <i class="fa fa-sliders"></i>
+          </li>
+
+          <li data-color="#34495e">
+            <div>
+              <h3>Slide #4</h3>
+              <span>Sub-title #4</span>
+            </div>
+            <i class="fa fa-code"></i>
+          </li>
+
+          <li data-color="#e74c3c">
+            <div>
+              <h3>Slide #5</h3>
+              <span>Sub-title #5</span>
+            </div>
+            <i class="fa fa-microphone-slash"></i>
+          </li>
+
+
+        </ul>
+
+        <!--controls-->
+        <div class="btns" id="next"><i class="fa fa-arrow-right"></i></div>
+        <div class="btns" id="previous"><i class="fa fa-arrow-left"></i></div>
+        <div id="counter"></div>
+
+        <div id="pagination-wrap">
+          <ul>
+          </ul>
+        </div>
+        <!--controls-->
+
+      </div>
+
+    </div>
+
+    <div id="image-slider" class="splide">
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide">
+            <img src="./img/Banusette (1).jpg">
+          </li>
+          <li class="splide__slide">
+            <img src="./img/Banusette (2).jpg">
+          </li>
+          <li class="splide__slide">
+            <img src="./img/Banusette (3).jpg">
+          </li>
+          <li class="splide__slide">
+            <img src="./img/Banusette (4).jpg">
+          </li>
+        </ul>
       </div>
     </div>
 
@@ -106,10 +187,15 @@
       <!-- Ajoute ici un tableau ou une liste de tarifs -->
     </section>
   </div>
+  &nbsp<img src="./img/coeur.png" style="max-width: 50px; width: 7vw;">
 
   <footer>
     <p>&copy; 2025 SAKOCHÉ. Tous droits réservés.</p>
   </footer>
+
+  <script src="./script.js"></script>
+
+
 </body>
 
 </html>
@@ -172,7 +258,6 @@
     </div>
   </section>
 
-  <script src="./script.js"></script>
 
 </body>
 
